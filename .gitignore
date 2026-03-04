@@ -1,3 +1,8 @@
+*.log
+*.gitkeep
+*.yml
+*.yaml
+*.lock
 solutions/
 .DS_Store
 .ipynb_checkpoints/
@@ -6,4 +11,4 @@ output/*.db*
 __pycache__/
 .env
 meltano-ingestion/automatic-ace-488412-a7-0433d6768c17.json
-meltano-ingestion/meltano.yml
+automatic-ace-488412-a7-0433d6768c17.json

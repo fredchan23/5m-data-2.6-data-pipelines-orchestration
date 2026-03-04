@@ -203,6 +203,7 @@ The following project demonstrate using Meltano to ingest data from Postgres dat
 
 > Supabase is an open-source backend-as-a-service platform that provides a suite of tools for building applications powered by PostgreSQL (Postgres) as its database. Postgres is a powerful, object-relational database system known for its reliability, extensibility and compliance with SQL standards. Supabase simplifies database management by offering an intuitive interface to interact with Postgres, making it a popular choice for developers looking for a scalable and flexible backend solution.
 
+## Note: using discord pre-setup database during class: https://discord.com/channels/1165846570177150996/1478277858668445717/1478277858668445717
 Go to the [Supabase](https://supabase.com) and create an account. Download the HDB housing data `Resale*.csv` file from the `data/` folder. Follow the instructions in this [setup file](supabase_db_setup_hdb.md) to setup your Postgres database table with the HDB housing data of resale flat prices based on registration date from Jan-2017 onwards. It is the same data that we used in module 1.
 
 > You can skip the database creation if you do not have the time, we will provide a similar database during class.   
