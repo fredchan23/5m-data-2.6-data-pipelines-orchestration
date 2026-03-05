@@ -28,8 +28,15 @@ meltano run tap-postgres target-bigquery
 
 ```
 ### Extra
-Tested and pouplate Supabase with data/CHAS Clinics.csv
-
+#### Tested and pouplate Supabase with data/CHAS Clinics.csv
+ - meltano init meltano-chas-clinic
+ - cd meltano-chas-clinic/
+ - meltano add tap-postgres
+ - meltano config set tap-postgres --interactive
+ - meltano config test tap-postgres
+ - meltano select tap-postgres "public-chas_clinics"
+ - meltano select tap-postgres --list
+ - meltano run tap-postgres target-bigquery
 
 ## Submission
 
