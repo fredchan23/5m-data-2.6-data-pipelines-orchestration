@@ -12,16 +12,24 @@ Answer:
 
 ```bash
 # Step 1: Add the tap-postgres extractor
+meltano add tap-postgres
 
 # Step 2: Configure the extractor with the PostgreSQL connection details (interactive option)
+meltano config set tap-postgres --interactive
 
 # Step 3: Add the target-bigquery loader
+meltano add target-bigquery
 
 # Step 4: Configure the BigQuery loader with the project, dataset, and service account details
+meltano config set target-bigquery --interactive
 
 # Step 5: Run the pipeline
+meltano run tap-postgres target-bigquery
 
 ```
+### Extra
+Tested and pouplate Supabase with data/CHAS Clinics.csv
+
 
 ## Submission
 
